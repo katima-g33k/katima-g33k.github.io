@@ -1,0 +1,114 @@
+@import "style";
+
+/* Less variables
+=================*/
+@fontSize: 16px;
+
+/* Slideout menu styles
+========================*/
+.slideout-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 256px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+}
+
+.slideout-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+
+/* Mobile only CSS rules
+========================*/
+nav {
+  background-color: black;
+  width: 70%;
+  height: 100vh;
+
+  a {
+    display: block;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 100%;
+    color: #ECECEC;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ECECEC;
+    text-decoration: none;
+  }
+
+  img {
+    width: 100%;
+    height: 50px;
+  }
+}
+
+#menuButton {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 0 10px 15px;
+  font-size: 1.5em;
+  color: #ECECEC;
+  width: 100%;
+  text-align: left;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.card {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+section {
+  min-height: 100vh;
+
+  p {
+    width: 80%;
+    padding-bottom: 50px;
+  }
+}
+
+
+footer {
+  margin-top: 30px;
+}
+
+.block {
+	* {
+		display: block;
+	}
+	
+	p {
+		padding-bottom: 0;
+	}
+	
+	img {
+		width: 90%;
+		margin: auto;
+		padding-bottom: 40px;
+	}
+}
+
+ul {
+	margin-top: -35px;
+	margin-bottom: 15px;
+}

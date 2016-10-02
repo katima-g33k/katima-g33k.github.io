@@ -1,0 +1,189 @@
+/* Font declaration
+===================*/
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@fontFamily: 'Lato', Arial, sans-serif;
+
+/* Color declaration
+====================*/
+@black: #231F20;
+@tBlack: rgba(35, 31, 32, 0.8);
+@green: #009900;
+@white: #ECECEC;               //White smoke
+@grey: #BDC3C7;                //Silver sand
+@topColor: @tBlack;
+@bottomColor: @black;
+
+
+/* CSS rules
+============*/
+html, body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: @white;
+  font-family: @fontFamily;
+  font-size: @fontSize;
+  line-height: 26px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.card {
+  background-color: @grey;
+  text-align: center;
+  box-shadow: 5px 5px 5px 2px black;
+
+  h3 {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin: 0;
+  }
+
+  img {
+    margin: 20px 0 25px 0;
+    width: 75%;
+    border-radius: 50%;
+  }
+}
+
+#wrapper {
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+
+header {
+  width: 100%;
+  background-color: @topColor;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  color: @white;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: @white;
+  padding-top: 15px;
+  position: relative;
+
+  h1 {
+    padding-top: 0;
+    margin-top: -15px;
+  }
+  
+  article {
+	  padding-bottom: 15px;
+  }
+}
+
+#home {
+  background-image: url(../res/img/code.png);
+  background-size: cover;
+  color: @white;
+  line-height: 3.5em;
+
+  h1, h2 {
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 4em;
+    margin-top: 20%;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 3em;
+    margin-top: 20px;
+  }
+}
+
+p {
+  font-size: 1em;
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: @bottomColor;
+  color: @white;
+  text-align: center;
+
+  p {
+    height: 50px;
+    padding: 25px 0;
+  }
+}
+
+.seperator {
+  position: absolute;
+  top: -30px;
+  width: 100%;
+  height: 100px;
+  background-color: @green;
+  transform: skew(0deg, -3deg);
+  z-index: 1;
+}
+
+.hidden {
+	display: none;
+}
+
+ul {
+	margin: auto;
+	padding-bottom: 15px;
+	
+	li {
+		color: @black;
+	}
+}
+
+#social {
+	margin: auto;
+	text-align: center;
+	
+	a {
+		margin: 0 1%;
+	}
+	
+	img {
+		width: 100px;
+		padding-bottom: 5px;
+		
+		&:hover {
+			border-bottom: 3px solid @green;
+			padding-bottom: 2px;
+		}
+	}
+}
+
+form {
+	width: intrinsic;
+	margin: 20px auto;
+	
+	* {
+		display: block;
+		margin-bottom: 15px;
+		border: none;
+		font-size: 1em;
+		padding: 10px;
+	}
+}
