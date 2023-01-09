@@ -1,0 +1,19 @@
+{
+  "about": {
+    "title": "About me"
+  },
+  "globals": {
+    "changeLocale": "Français",
+    "nav": {
+      "about": "About",
+      "contact": "Contact me",
+      "experience": "Studies and experiences",
+      "home": "Home"
+    },
+    "title": "Jessy Lachapelle"
+  },
+  "home": {
+    "subtitle": "I'm Jessy and I'm living my digital nomad dream",
+    "title": "Welcome to my website"
+  }
+}
