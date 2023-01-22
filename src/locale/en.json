@@ -1,0 +1,64 @@
+{
+  "about": {
+    "description": [
+      "I have a degree in computer programing from Cégep de Sherbrooke. I’m currently working for Akinox Solutions Inc., a company specialized in health care software.",
+      "I love programing, it’s one of my passions, and I have affinities with web programing because the technologies evolve very quickly, and I find that adds an extra challenge.",
+      "With time, I’ve specialized myself as a frontend web and mobile developer with React and React-Native, although I’ve also used VueJS on occasion.",
+      "In November 2022, I left home for an 8-month trip to Asia all while working remotely. This has been long standing dream of mine that I can finally realize. Since I started traveling and have had my first experiences as a digital nomad, I don’t think I would ever go back to an on-site job."
+    ],
+    "imageAlt": "Photo of me on the Hakone ropeway",
+    "title": "About me"
+  },
+  "contact": {
+    "description": "You can use these links if you want to contact me",
+    "title": "Contact me"
+  },
+  "experience": {
+    "description": "To start, I didn't always study computer programming. I started at Cégep de Granby to become a Specialized Educator. This allowed me to gain many communication and teamwork skills. I then decided to study computer programming because I realized that it was my true passion.",
+    "title": "My experience",
+    "volunteer": {
+      "list": [
+        "Secretary of the board of directors - Fierté Sherbrooke Pride",
+        "WWOOF",
+        "Coordinator - ÉTICS (Cégep de Sherbrooke)",
+        "Coordinator/In charge of the Havre (Safe Space) - CIOSAL (Cégep de Sherbrooke)",
+        "Speaker - Iris-Estrie",
+        "Secretary of the board of directors - Divers-Gens (Granby)",
+        "Katimavik",
+        "Organizer - SkateShow... Granby à Planche!",
+        "Organizer - SHOES (Opération Enfant Soleil)"
+      ],
+      "title": "Volunteer experience"
+    },
+    "work": {
+      "list": [
+        "Frontend developer - Akinox Solutions Inc.",
+        "IT Technician - Sherbrooke University",
+        "Analyst programmer - Novom Networks",
+        "IT Intern - Granby Zoo",
+        "IT Technician for the BLU - AÉCS (Cégep de Sherbrooke)"
+      ],
+      "title": "Work experience"
+    }
+  },
+  "globals": {
+    "changeLocale": "Français",
+    "footer": {
+      "copyright": [
+        "© Jessy Lachapelle, {{year}}.",
+        "All rights reserved."
+      ]
+    },
+    "nav": {
+      "about": "About",
+      "contact": "Contact me",
+      "experience": "Experience",
+      "home": "Home"
+    },
+    "title": "Jessy Lachapelle"
+  },
+  "home": {
+    "subtitle": "I'm Jessy and I'm currently living my digital nomad dream",
+    "title": "Welcome to my website"
+  }
+}
