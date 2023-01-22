@@ -1,12 +1,14 @@
 import React, { PropsWithChildren } from "react";
+import ContentWrapper, { ContentWrapperProps } from "./ContentWrapper";
 import Header from "./Header";
+import Footer from "./Footer";
 import { classNames } from "../lib/classNames";
 
-interface LayoutProps {
+interface LayoutProps extends ContentWrapperProps {
   backgroundClass?: string;
 }
 
-export default function Layout({ backgroundClass = "", children }: PropsWithChildren<LayoutProps>) {
+export default function Layout({ backgroundClass = "", children, ...props }: PropsWithChildren<LayoutProps>) {
   return (
     <div className={classNames(
       "flex flex-col w-full min-h-screen",
@@ -15,9 +17,10 @@ export default function Layout({ backgroundClass = "", children }: PropsWithChil
       backgroundClass
     )}>
       <Header />
-      <main className="flex flex-1 px-6 md:px-3 justify-center">
+      <ContentWrapper {...props}>
         {children}
-      </main>
+      </ContentWrapper>
+      <Footer />
     </div>
   );
 }

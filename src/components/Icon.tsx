@@ -1,7 +1,6 @@
 import React, { AriaAttributes } from "react";
 import * as FeatherIcons from "react-feather";
-
-export type IconNameList = keyof typeof FeatherIcons;
+import { IconNameList } from "../types";
 
 export interface IconProps extends AriaAttributes {
   className?: string;

@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "beach": "url('/public/beach.jpg')",
+        "sunset": "url('/public/sunset_boat.jpg')",
+        "train": "url('/public/train.jpg')",
         "viewpoint": "url('/public/viewpoint.jpg')",
       },
       fontFamily: {

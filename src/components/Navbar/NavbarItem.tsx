@@ -2,7 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import { classNames } from "../../lib/classNames";
-import Icon, { IconNameList } from "../Icon";
+import Icon from "../Icon";
+import type { IconNameList } from "../../types";
 
 interface NavBarItemProps {
   href: string;
@@ -15,10 +16,13 @@ export default function NavBarItem({ href, icon, isActive, label }: NavBarItemPr
   return (
     <li>
       <NavLink
-        className={classNames("flex gap-1 text-lg underline-offset-4 hover:underline", isActive ? "font-semibold underline" : "")}
+        className={classNames(
+          "flex gap-1 text-lg border-b border-b-solid hover:border-b-white",
+          isActive ? "font-semibold border-b-white" : "border-b-transparent"
+        )}
         to={href}
       >
-        <Icon aria-label={label} className="md:hidden" name={icon} />
+        <Icon aria-label={label} className="mb-2 md:hidden" name={icon} />
         <span className="hidden md:inline">
           {label}
         </span>

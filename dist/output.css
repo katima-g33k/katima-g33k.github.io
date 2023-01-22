@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900');
 
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
@@ -424,6 +424,7 @@ html, body, #root{
   display: flex;
   min-height: 100vh;
   width: 100%;
+  min-width: 375px;
   flex-direction: column;
   font-family: Roboto, sans-serif;
   --tw-text-opacity: 1;
@@ -571,6 +572,46 @@ html, body, #root{
   --tw-backdrop-sepia:  ;
 }
 
+.fixed{
+  position: fixed;
+}
+
+.mt-28{
+  margin-top: 7rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.ml-4{
+  margin-left: 1rem;
+}
+
+.mt-64{
+  margin-top: 16rem;
+}
+
+.mt-52{
+  margin-top: 13rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -579,12 +620,28 @@ html, body, #root{
   display: none;
 }
 
+.h-24{
+  height: 6rem;
+}
+
+.h-52{
+  height: 13rem;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
 
 .w-full{
   width: 100%;
+}
+
+.w-24{
+  width: 6rem;
+}
+
+.w-52{
+  width: 13rem;
 }
 
 .flex-1{
@@ -597,6 +654,10 @@ html, body, #root{
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.list-disc{
+  list-style-type: disc;
 }
 
 .flex-col{
@@ -627,6 +688,14 @@ html, body, #root{
   gap: 1.5rem;
 }
 
+.gap-8{
+  gap: 2rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
@@ -639,12 +708,41 @@ html, body, #root{
   gap: 0.25rem;
 }
 
+.rounded-full{
+  border-radius: 9999px;
+}
+
+.border-b-4{
+  border-bottom-width: 4px;
+}
+
+.border-solid{
+  border-style: solid;
+}
+
 .border-none{
   border-style: none;
 }
 
+.border-transparent{
+  border-color: transparent;
+}
+
+.bg-transparent{
+  background-color: transparent;
+}
+
+.bg-gray-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
 .bg-none{
   background-image: none;
+}
+
+.p-3{
+  padding: 0.75rem;
 }
 
 .py-3{
@@ -655,6 +753,14 @@ html, body, #root{
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .text-6xl{
@@ -688,6 +794,10 @@ html, body, #root{
   text-underline-offset: 4px;
 }
 
+header {
+  transition: all 0.5s ease-in-out;
+}
+
 .before\:fixed::before{
   content: var(--tw-content);
   position: fixed;
@@ -718,11 +828,6 @@ html, body, #root{
   height: 100%;
 }
 
-.before\:w-full::before{
-  content: var(--tw-content);
-  width: 100%;
-}
-
 .before\:bg-viewpoint::before{
   content: var(--tw-content);
   background-image: url('/public/viewpoint.jpg');
@@ -731,6 +836,16 @@ html, body, #root{
 .before\:bg-beach::before{
   content: var(--tw-content);
   background-image: url('/public/beach.jpg');
+}
+
+.before\:bg-sunset::before{
+  content: var(--tw-content);
+  background-image: url('/public/sunset_boat.jpg');
+}
+
+.before\:bg-train::before{
+  content: var(--tw-content);
+  background-image: url('/public/train.jpg');
 }
 
 .before\:bg-cover::before{
@@ -762,11 +877,20 @@ html, body, #root{
   content: var(--tw-content);
 }
 
+.hover\:border-white:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .hover\:underline:hover{
   text-decoration-line: underline;
 }
 
 @media (min-width: 768px){
+  .md\:mt-0{
+    margin-top: 0px;
+  }
+
   .md\:inline{
     display: inline;
   }
@@ -775,8 +899,24 @@ html, body, #root{
     display: none;
   }
 
+  .md\:h-64{
+    height: 16rem;
+  }
+
+  .md\:w-64{
+    width: 16rem;
+  }
+
   .md\:max-w-\[75\%\]{
     max-width: 75%;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:items-start{
+    align-items: flex-start;
   }
 
   .md\:justify-start{
@@ -786,6 +926,10 @@ html, body, #root{
   .md\:px-3{
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .md\:text-right{
+    text-align: right;
   }
 }
 

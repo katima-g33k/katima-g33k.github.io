@@ -2,7 +2,7 @@ import React, { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 
 import { routes } from "../constants/routes";
-import type { Locale } from "../types";
+import { LOCALE } from "../constants";
 
 const About = lazy(() => import("./About"));
 const Contact = lazy(() => import("./Contact"));
@@ -16,7 +16,7 @@ export default function Router() {
         <Route path="/">
           <Route index element={<Home />} />
 
-          {(["en", "fr"] as Locale[]).map((locale) => (
+          {([LOCALE.EN, LOCALE.FR]).map((locale) => (
             <Route key={locale} path={locale}>
               <Route index element={<Home />} />
               <Route path={routes[locale].about} element={<About />} />

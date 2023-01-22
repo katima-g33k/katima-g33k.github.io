@@ -8,6 +8,6 @@ interface H1Props {
 
 export default function H1({ children, className = "" }: H1Props) {
   return (
-    <h1 className={classNames("text-6xl font-bold", className)}>{children}</h1>
+    <h1 className={classNames("text-6xl font-bold mb-8", className)}>{children}</h1>
   );
 }

@@ -1,13 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-import "./styles/index.css";
-import App from "./App";
-import i18n from "i18next";
+import { BrowserRouter } from "react-router-dom";
 import { initReactI18next } from "react-i18next";
+import i18n from "i18next";
+
+import Router from "./routes/Router";
+
 import en from "./locale/en.json";
 import fr from "./locale/fr.json";
-import { BrowserRouter } from "react-router-dom";
+import { DEFAULT_LOCALE } from "./constants";
+
+import "./styles/index.css";
 
 i18n
   .use(initReactI18next)
@@ -16,9 +19,9 @@ i18n
       en: { translation: en },
       fr: { translation: fr },
     },
-    lng: "en",
-    fallbackLng: "en",
-  });
+    lng: DEFAULT_LOCALE,
+    fallbackLng: DEFAULT_LOCALE,
+  }).catch();
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -27,7 +30,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Router />
     </BrowserRouter>
   </React.StrictMode>
 );

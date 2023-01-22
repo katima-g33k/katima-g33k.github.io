@@ -1,19 +1,64 @@
 {
   "about": {
+    "description": [
+      "J’ai un diplôme en techniques informatiques, profil programmation, du Cégep de Sherbrooke. Je travaille présentement pour Akinox Solutions Inc., une entreprise spécialisée dans les logiciels du domaine de la santé.",
+      "J’adore la programmation, c’est une de mes passions, et j’ai une affinité pour la programmation web puisque les technologies évoluent très rapidement et je trouve que ça ajoute un défi supplémentaire.",
+      "Avec le temps, je me suis spécialisé en tant que développeur web « frontend » et développeur mobile avec les technologies React et React-Native et j’ai à l’occasion utilisé VueJS.",
+      "En novembre 2022, j’ai quitté le Québec en direction de l’Asie pour faire un voyage de 8 mois tout en travaillant à distance. Pour moi c’est un rêve devenu réalité et je ne crois pas pouvoir revenir à un emploi en présentiel maintenant que j’ai goûté à la vie d’un nomade digital."
+    ],
+    "imageAlt": "Photo de moi sur le téléphérique de Hakone",
     "title": "À propos de moi"
+  },
+  "contact": {
+    "description": "Vous pouvez utiliser ces liens si vous souhaitez me contacter",
+    "title": "Me contacter"
+  },
+  "experience": {
+    "description": "Pour commencer, je n'ai pas toujours étudié en informatique. J'ai commencé au Cégep de Granby pour devenir éducateur spécialisé. Cela m'a permis d'acquérir de nombreuses compétences en communication et en travail d'équipe. Par la suite, j'ai décidé d'étudier en informatique car j'ai réalisé que c'était ma véritable passion.",
+    "title": "Mon expérience",
+    "volunteer": {
+      "list": [
+        "Secrétaire du conseil d'administration - Fierté Sherbrooke Pride",
+        "WWOOF",
+        "Coordonnateur - ÉTICS (Cégep de Sherbrooke)",
+        "Coordonnateur/Responsable du Havre (Safe Space) - CIOSAL (Cégep de Sherbrooke)",
+        "Conférencier - Iris-Estrie",
+        "Secrétaire du conseil d'administration - Divers-Gens (Granby)",
+        "Katimavik",
+        "Organisateur - SkateShow... Granby à Planche!",
+        "Organisateur - SHOES (Opération Enfant Soleil)"
+      ],
+      "title": "Expérience de bénévolat"
+    },
+    "work": {
+      "list": [
+        "Frontend developer - Akinox Solutions Inc.",
+        "IT Technician - Sherbrooke University",
+        "Analyst programmer - Novom Networks",
+        "IT Intern - Granby Zoo",
+        "IT Technician for the BLU - AÉCS (Cégep de Sherbrooke)"
+      ],
+      "title": "Expérience de travail"
+    }
   },
   "globals": {
     "changeLocale": "English",
+    "footer": {
+      "copyright": [
+        "© Jessy Lachapelle, {{year}}.",
+        "Tous droits réservés."
+      ]
+    },
     "nav": {
       "about": "À propos",
       "contact": "Contactez-moi",
-      "experience": "Études et expériences",
+      "experience": "Expérience",
       "home": "Accueil"
     },
     "title": "Jessy Lachapelle"
   },
   "home": {
-    "subtitle": "Je m'appelle Jessy et je vis mon rêve de nomade digital",
+    "subtitle": "Je m'appelle Jessy et je vis présentement mon rêve de nomade digital",
     "title": "Bienvenue sur mon site web"
   }
 }

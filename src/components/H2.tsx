@@ -8,6 +8,6 @@ interface H2Props {
 
 export default function H2({ children, className = "" }: H2Props) {
   return (
-    <h2 className={classNames("font-semibold text-xl", className)}>{children}</h2>
+    <h2 className={classNames("font-semibold text-xl mb-2", className)}>{children}</h2>
   );
 }
