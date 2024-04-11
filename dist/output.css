@@ -609,12 +609,16 @@ html, body, #root{
   margin-left: 1rem;
 }
 
-.mt-6{
-  margin-top: 1.5rem;
+.ml-6{
+  margin-left: 1.5rem;
 }
 
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
 }
 
 .hidden{
@@ -627,6 +631,12 @@ html, body, #root{
 
 .h-52{
   height: 13rem;
+}
+
+.h-fit{
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .min-h-screen{
@@ -659,6 +669,10 @@ html, body, #root{
 
 .list-disc{
   list-style-type: disc;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -699,6 +713,10 @@ html, body, #root{
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
 }
 
 .gap-5{
@@ -751,12 +769,25 @@ html, body, #root{
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-20{
+  --tw-bg-opacity: 0.2;
+}
+
 .bg-none{
   background-image: none;
 }
 
 .p-3{
   padding: 0.75rem;
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .px-6{
@@ -922,6 +953,14 @@ header {
     max-width: 75%;
   }
 
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
@@ -963,5 +1002,9 @@ header {
 
   .lg\:basis-auto{
     flex-basis: auto;
+  }
+
+  .lg\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }

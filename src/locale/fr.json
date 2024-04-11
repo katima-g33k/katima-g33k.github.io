@@ -1,10 +1,10 @@
 {
   "about": {
     "description": [
-      "J’ai un diplôme en techniques informatiques, profil programmation, du Cégep de Sherbrooke. Je travaille présentement pour Akinox Solutions Inc., une entreprise spécialisée dans les logiciels du domaine de la santé.",
-      "J’adore la programmation, c’est une de mes passions, et j’ai une affinité pour la programmation web puisque les technologies évoluent très rapidement et je trouve que ça ajoute un défi supplémentaire.",
-      "Avec le temps, je me suis spécialisé en tant que développeur web « frontend » et développeur mobile avec les technologies React et React-Native et j’ai à l’occasion utilisé VueJS.",
-      "Être un nomade numérique était un de mes rêves de longue date que j’ai enfin pu réaliser.",
+      "J'ai un diplôme en techniques informatiques, profil programmation, du Cégep de Sherbrooke. Je travaille présentement pour Akinox Solutions Inc., une entreprise spécialisée dans les logiciels du domaine de la santé.",
+      "J'adore la programmation, c'est une de mes passions, et j'ai une affinité pour la programmation web puisque les technologies évoluent très rapidement et je trouve que ça ajoute un défi supplémentaire.",
+      "Avec le temps, je me suis spécialisé en tant que développeur web « frontend » et développeur mobile avec les technologies React et React-Native et j'ai à l'occasion utilisé VueJS.",
+      "Être un nomade numérique était un de mes rêves de longue date que j'ai enfin pu réaliser.",
       "En novembre 2022, j'ai quitté la maison pour un voyage de 8 mois en Asie. Au cours de ce voyage, j'ai visité le Vietnam, le Cambodge, la Thaïlande, la Malaisie, Singapour, la Corée du Sud et le Japon.",
       "Après quelques mois de retour chez moi, j'ai voyagé en Colombie pendant un mois, puis je suis retourné en Malaisie pendant 2 mois avant d'embarquer pour un voyage de 2 mois à travers l'Europe d'Istanbul à Lisbonne en train.",
       "Tous ces voyages ont été effectués en travaillant à temps plein à distance."
@@ -18,28 +18,92 @@
   },
   "experience": {
     "description": "Pour commencer, je n'ai pas toujours étudié en informatique. J'ai commencé au Cégep de Granby pour devenir éducateur spécialisé. Cela m'a permis d'acquérir de nombreuses compétences en communication et en travail d'équipe. Par la suite, j'ai décidé d'étudier en informatique car j'ai réalisé que c'était ma véritable passion.",
-    "title": "Mon expérience",
-    "volunteer": {
+    "stack": {
       "list": [
-        "Secrétaire du conseil d'administration - Fierté Sherbrooke Pride",
-        "WWOOF",
-        "Coordonnateur - ÉTICS (Cégep de Sherbrooke)",
-        "Coordonnateur/Responsable du Havre (Safe Space) - CIOSAL (Cégep de Sherbrooke)",
-        "Conférencier - Iris-Estrie",
-        "Secrétaire du conseil d'administration - Divers-Gens (Granby)",
-        "Katimavik",
-        "Organisateur - SkateShow... Granby à Planche!",
-        "Organisateur - SHOES (Opération Enfant Soleil)"
+        "Javascript/ES6",
+        "Typescript",
+        "ReactJS",
+        "React-Native",
+        "Java (Android)",
+        "TailwindCSS",
+        "HTML5/CSS",
+        "Git",
+        "SignalR",
+        "PHP",
+        "MongoDB",
+        "SQL",
+        "VueJS",
+        "NextJS",
+        "NodeJS"
       ],
-      "title": "Expérience de bénévolat"
+      "title": "Stack techno"
     },
+    "title": "Mon expérience",
     "work": {
       "list": [
-        "Frontend developer - Akinox Solutions Inc.",
-        "IT Technician - Sherbrooke University",
-        "Analyst programmer - Novom Networks",
-        "IT Intern - Granby Zoo",
-        "IT Technician for the BLU - AÉCS (Cégep de Sherbrooke)"
+        {
+          "location": "Akinox Solutions Inc.",
+          "tasks": [
+            "Maintiens d'applications mobiles (Vaxicode)",
+            "Développement d'application web pour la gestion de services de la santé"
+          ],
+          "timeframe": "2022-Présent",
+          "title": "Développeur frontend"
+        },
+        {
+          "location": "Université de Sherbrooke",
+          "tasks": [
+            "Gestion de l'environnement numérique d'apprentissage",
+            "Développement d'applications mobiles (Trajectus)",
+            "Développement d'outils de gestion et de recherches linguistiques"
+          ],
+          "timeframe": "2017-2022",
+          "title": "Technicien informatique"
+        },
+        {
+          "location": "Novom Networks",
+          "tasks": [
+            "API interne d'infrastructure de géolocalisation",
+            "CMS de gestion et d'achat d'offres promotionnelles",
+            "Applications web et mobile"
+          ],
+          "timeframe": "2016-2017",
+          "title": "Analyste-programmeur"
+        },
+        {
+          "location": "Zoo de Granby",
+          "tasks": [
+            "Voir au bon fonctionnement du réseau informatique",
+            "Faire des dépannages lorsque nécessaire"
+          ],
+          "timeframe": "2014",
+          "title": "Stagiaire en informatique"
+        },
+        {
+          "location": "BLU - AÉCS - Cégep de Sherbrooke",
+          "tasks": [
+            "Aider les clients",
+            "Saisir des données",
+            "Gérer le parc informatique",
+            "Développement du nouveau logiciel (bénévolement)"
+          ],
+          "timeframe": "2013-2016",
+          "title": "Commis responsable à l'informatique"
+        },
+        {
+          "tasks": [
+            "Secrétaire du conseil d'administration - Fierté Sherbrooke Pride",
+            "WWOOF",
+            "Coordonnateur - ÉTICS (Cégep de Sherbrooke)",
+            "Coordonnateur/Responsable du Havre (Safe Space) - CIOSAL (Cégep de Sherbrooke)",
+            "Conférencier - Iris-Estrie",
+            "Secrétaire du conseil d'administration - Divers-Gens (Granby)",
+            "Katimavik",
+            "Organisateur - SkateShow... Granby à Planche!",
+            "Organisateur - SHOES (Opération Enfant Soleil)"
+          ],
+          "title": "Expérience de bénévolat"
+        }
       ],
       "title": "Expérience de travail"
     }

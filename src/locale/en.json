@@ -18,28 +18,92 @@
   },
   "experience": {
     "description": "To start, I didn't always study computer programming. I started at Cégep de Granby to become a Specialized Educator. This allowed me to gain many communication and teamwork skills. I then decided to study computer programming because I realized that it was my true passion.",
-    "title": "My experience",
-    "volunteer": {
+    "stack": {
       "list": [
-        "Secretary of the board of directors - Fierté Sherbrooke Pride",
-        "WWOOF",
-        "Coordinator - ÉTICS (Cégep de Sherbrooke)",
-        "Coordinator/In charge of the Havre (Safe Space) - CIOSAL (Cégep de Sherbrooke)",
-        "Speaker - Iris-Estrie",
-        "Secretary of the board of directors - Divers-Gens (Granby)",
-        "Katimavik",
-        "Organizer - SkateShow... Granby à Planche!",
-        "Organizer - SHOES (Opération Enfant Soleil)"
+        "Javascript/ES6",
+        "Typescript",
+        "ReactJS",
+        "React-Native",
+        "Java (Android)",
+        "TailwindCSS",
+        "HTML5/CSS",
+        "Git",
+        "SignalR",
+        "PHP",
+        "MongoDB",
+        "SQL",
+        "VueJS",
+        "NextJS",
+        "NodeJS"
       ],
-      "title": "Volunteer experience"
+      "title": "Tech Stack"
     },
+    "title": "My experience",
     "work": {
       "list": [
-        "Frontend developer - Akinox Solutions Inc.",
-        "IT Technician - Sherbrooke University",
-        "Analyst programmer - Novom Networks",
-        "IT Intern - Granby Zoo",
-        "IT Technician for the BLU - AÉCS (Cégep de Sherbrooke)"
+        {
+          "location": "Akinox Solutions Inc.",
+          "tasks": [
+            "Maintain React-Native mobile applications (Vaxicode)",
+            "Develop health care service management web applications"
+          ],
+          "timeframe": "2022-Present",
+          "title": "Frontend developer"
+        },
+        {
+          "location": "Sherbrooke University",
+          "tasks": [
+            "Manage the digital learning environment platform",
+            "Develop mobile applications (Trajectus)",
+            "Develop linguistic analysis tools"
+          ],
+          "timeframe": "2017-2022",
+          "title": "IT Technician"
+        },
+        {
+          "location": "Novom Networks",
+          "tasks": [
+            "Develop internal geolocation APIs",
+            "Develop CMS to manage promotions and offers",
+            "Develop web and mobile applications"
+          ],
+          "timeframe": "2016-2017",
+          "title": "Analyst programmer"
+        },
+        {
+          "location": "Granby Zoo",
+          "tasks": [
+            "Ensure the proper functioning of the computer network",
+            "Perform troubleshooting when necessary"
+          ],
+          "timeframe": "2014",
+          "title": "IT Intern"
+        },
+        {
+          "location": "BLU - AÉCS - Cégep de Sherbrooke",
+          "tasks": [
+            "Assist customers",
+            "Data entry",
+            "Manage the IT equipment",
+            "Development of new software (volunteered)"
+          ],
+          "timeframe": "2013-2016",
+          "title": "IT Technician"
+        },
+        {
+          "tasks": [
+            "Secretary of the board of directors - Fierté Sherbrooke Pride",
+            "WWOOF",
+            "Coordinator - ÉTICS (Cégep de Sherbrooke)",
+            "Coordinator/In charge of the Havre (Safe Space) - CIOSAL (Cégep de Sherbrooke)",
+            "Speaker - Iris-Estrie",
+            "Secretary of the board of directors - Divers-Gens (Granby)",
+            "Katimavik",
+            "Organizer - SkateShow... Granby à Planche!",
+            "Organizer - SHOES (Opération Enfant Soleil)"
+          ],
+          "title": "Volunteer experience"
+        }
       ],
       "title": "Work experience"
     }
