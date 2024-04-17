@@ -8,7 +8,7 @@ const WorkListItemTitle = ({ location, timeframe, title }: WorkListItemTitleProp
     <div className="w-full">
       <div className="flex justify-between">
         <p>{title}</p>
-        {timeframe && <p>{timeframe}</p>}
+        {timeframe && <p className="flex-shrink-0">{timeframe}</p>}
       </div>
       {location && <p>{location}</p>}
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import H1 from "../components/H1";
+import { H1 } from "../components/Typography";
 import Layout from "../components/Layout";
 import TechStack from "../components/TechStack";
 import WorkList from "../components/WorkList";

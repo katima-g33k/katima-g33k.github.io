@@ -1,4 +1,4 @@
-import { Locale } from "../types";
+import type { Locale } from "../types";
 
 export const LOCALE: Record<string, Locale> = {
   EN: "en",

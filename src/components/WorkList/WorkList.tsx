@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import H2 from "../H2";
+import { H2 } from "../Typography";
 import WorkListColumn from "./WorkListColumn";
 import { useWorkList } from "./useWorkList";
 

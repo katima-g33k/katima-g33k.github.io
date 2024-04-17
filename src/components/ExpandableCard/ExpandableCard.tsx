@@ -1,9 +1,8 @@
-import React, { KeyboardEvent, ReactNode, useState } from "react";
+import React, { ReactNode } from "react";
+import classnames from "classnames";
 import { ChevronDown, ChevronUp } from "react-feather";
 
 import { useExpandableCard } from "./useExpandableCard";
-
-import styles from "./styles.module.css";
 
 interface ExpandableCardProps {
   content: ReactNode;
@@ -26,8 +25,12 @@ const ExpandableCard = ({ content, expandedByDefault = false, title }: Expandabl
         {isExpanded ? <ChevronUp /> : <ChevronDown />}
       </div>
 
-      <div aria-expanded={isExpanded} className={styles.wrapper}>
-        <div className={styles.inner}>{content}</div>
+      <div
+        aria-expanded={isExpanded}
+        className={classnames("grid grid-rows-[0fr]", { "grid-rows-[1fr]": isExpanded })}
+        style={{ transition: "grid-template-rows 0.5s ease-out" }}
+      >
+        <div className="overflow-hidden">{content}</div>
       </div>
     </div>
   );

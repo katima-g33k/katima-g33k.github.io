@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-export default function Footer() {
+const Footer = () => {
   const { i18n } = useTranslation();
   const year = (new Date()).getFullYear();
   const text = i18n.t("globals.footer.copyright", { returnObjects: true, year }) as string[];
@@ -13,4 +13,6 @@ export default function Footer() {
       ))}
     </footer>
   );
-}
+};
+
+export default Footer;

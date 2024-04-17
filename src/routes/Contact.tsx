@@ -1,11 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
+import { H1, H2 } from "../components/Typography";
 import Layout from "../components/Layout";
-import H1 from "../components/H1";
 import SocialMediaLink from "../components/SocialMediaLink";
 
 import type { SocialMediaLink as SocialMediaLinkType } from "../types";
-import { useTranslation } from "react-i18next";
-import H2 from "../components/H2";
 
 const socialMediaLinks = [
   { href: "https://github.com/katima-g33k", icon: "GitHub" },

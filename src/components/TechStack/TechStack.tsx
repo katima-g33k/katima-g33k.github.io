@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import H2 from "../../components/H2";
+import { H2 } from "../../components/Typography";
 import { useTechStack } from "./useTechStack";
 
 const TechStack = () => {

@@ -1,8 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import H1 from "../components/H1";
-import H2 from "../components/H2";
+import { H1, H2 } from "../components/Typography";
 import Layout from "../components/Layout";
 
 export default function Home() {
