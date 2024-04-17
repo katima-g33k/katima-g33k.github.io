@@ -576,9 +576,24 @@ html, body, #root{
   position: fixed;
 }
 
-.my-1{
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
+.order-3{
+  order: 3;
+}
+
+.order-2{
+  order: 2;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.\!mb-0{
+  margin-bottom: 0px !important;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .mt-\[100px\]{
@@ -589,24 +604,8 @@ html, body, #root{
   margin-top: 2rem;
 }
 
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mb-8{
-  margin-bottom: 2rem;
-}
-
 .mb-2{
   margin-bottom: 0.5rem;
-}
-
-.\!mb-0{
-  margin-bottom: 0px !important;
-}
-
-.ml-4{
-  margin-left: 1rem;
 }
 
 .ml-6{
@@ -625,10 +624,6 @@ html, body, #root{
   display: none;
 }
 
-.h-20{
-  height: 5rem;
-}
-
 .h-52{
   height: 13rem;
 }
@@ -639,8 +634,16 @@ html, body, #root{
   height: fit-content;
 }
 
+.h-20{
+  height: 5rem;
+}
+
 .min-h-screen{
   min-height: 100vh;
+}
+
+.w-52{
+  width: 13rem;
 }
 
 .w-full{
@@ -651,12 +654,12 @@ html, body, #root{
   width: 5rem;
 }
 
-.w-52{
-  width: 13rem;
-}
-
 .flex-1{
   flex: 1 1 0%;
+}
+
+.flex-shrink-0{
+  flex-shrink: 0;
 }
 
 .basis-full{
@@ -673,6 +676,14 @@ html, body, #root{
 
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-\[0fr\]{
+  grid-template-rows: 0fr;
+}
+
+.grid-rows-\[1fr\]{
+  grid-template-rows: 1fr;
 }
 
 .flex-col{
@@ -699,20 +710,20 @@ html, body, #root{
   justify-content: space-around;
 }
 
-.gap-2{
-  gap: 0.5rem;
-}
-
-.gap-6{
-  gap: 1.5rem;
-}
-
 .gap-8{
   gap: 2rem;
 }
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
 }
 
 .gap-3{
@@ -727,16 +738,20 @@ html, body, #root{
   gap: 0.25rem;
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
 
-.border-b-4{
-  border-bottom-width: 4px;
-}
-
 .border-b{
   border-bottom-width: 1px;
+}
+
+.border-b-4{
+  border-bottom-width: 4px;
 }
 
 .border-solid{
@@ -760,6 +775,11 @@ html, body, #root{
   border-bottom-color: transparent;
 }
 
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-transparent{
   background-color: transparent;
 }
@@ -767,11 +787,6 @@ html, body, #root{
 .bg-gray-700{
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-}
-
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-20{
@@ -782,17 +797,12 @@ html, body, #root{
   background-image: none;
 }
 
-.p-3{
-  padding: 0.75rem;
-}
-
 .p-4{
   padding: 1rem;
 }
 
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.p-3{
+  padding: 0.75rem;
 }
 
 .py-3{
@@ -800,8 +810,18 @@ html, body, #root{
   padding-bottom: 0.75rem;
 }
 
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pb-2{
   padding-bottom: 0.5rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-6xl{
@@ -814,17 +834,24 @@ html, body, #root{
   line-height: 1.75rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.font-semibold{
+  font-weight: 600;
 }
 
 .font-bold{
   font-weight: 700;
 }
 
-.font-semibold{
-  font-weight: 600;
+.transition{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-out{
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
 header {
@@ -933,20 +960,20 @@ header {
     display: none;
   }
 
-  .md\:h-24{
-    height: 6rem;
-  }
-
   .md\:h-64{
     height: 16rem;
   }
 
-  .md\:w-24{
-    width: 6rem;
+  .md\:h-24{
+    height: 6rem;
   }
 
   .md\:w-64{
     width: 16rem;
+  }
+
+  .md\:w-24{
+    width: 6rem;
   }
 
   .md\:max-w-\[75\%\]{
@@ -984,12 +1011,12 @@ header {
 }
 
 @media (min-width: 1024px){
-  .lg\:order-3{
-    order: 3;
-  }
-
   .lg\:order-2{
     order: 2;
+  }
+
+  .lg\:order-3{
+    order: 3;
   }
 
   .lg\:mt-\[52px\]{
