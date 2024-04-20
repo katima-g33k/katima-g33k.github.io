@@ -20,21 +20,27 @@
     "description": "To start, I didn't always study computer programming. I started at Cégep de Granby to become a Specialized Educator. This allowed me to gain many communication and teamwork skills. I then decided to study computer programming because I realized that it was my true passion.",
     "stack": {
       "list": [
+        "ReactJS",
+        "NextJS",
         "Javascript/ES6",
         "Typescript",
-        "ReactJS",
         "React-Native",
         "Java (Android)",
         "TailwindCSS",
         "HTML5/CSS",
+        "Mocha / Jest",
+        "Storybook",
         "Git",
-        "SignalR",
-        "PHP",
+        "NodeJS",
         "MongoDB",
         "SQL",
         "VueJS",
-        "NextJS",
-        "NodeJS"
+        "Nuxt",
+        "WCAG 2.0",
+        "AWS Serverless",
+        "SignalR",
+        "MeteorJS",
+        "PHP"
       ],
       "title": "Tech Stack"
     },
@@ -45,7 +51,9 @@
           "location": "Akinox Solutions Inc.",
           "tasks": [
             "Maintain React-Native mobile applications (Vaxicode)",
-            "Develop health care service management web applications"
+            "Develop health care service management web applications",
+            "Lead the frontend guild",
+            "Lead an initiative to make our in-house component library more accessible"
           ],
           "timeframe": "2022-Present",
           "title": "Frontend developer"

@@ -20,21 +20,27 @@
     "description": "Pour commencer, je n'ai pas toujours étudié en informatique. J'ai commencé au Cégep de Granby pour devenir éducateur spécialisé. Cela m'a permis d'acquérir de nombreuses compétences en communication et en travail d'équipe. Par la suite, j'ai décidé d'étudier en informatique car j'ai réalisé que c'était ma véritable passion.",
     "stack": {
       "list": [
+        "ReactJS",
+        "NextJS",
         "Javascript/ES6",
         "Typescript",
-        "ReactJS",
         "React-Native",
         "Java (Android)",
         "TailwindCSS",
         "HTML5/CSS",
+        "Mocha / Jest",
+        "Storybook",
         "Git",
-        "SignalR",
-        "PHP",
+        "NodeJS",
         "MongoDB",
         "SQL",
         "VueJS",
-        "NextJS",
-        "NodeJS"
+        "Nuxt",
+        "WCAG 2.0",
+        "AWS Serverless",
+        "SignalR",
+        "MeteorJS",
+        "PHP"
       ],
       "title": "Stack techno"
     },
@@ -45,7 +51,9 @@
           "location": "Akinox Solutions Inc.",
           "tasks": [
             "Maintiens d'applications mobiles (Vaxicode)",
-            "Développement d'application web pour la gestion de services de la santé"
+            "Développement d'application web pour la gestion de services de la santé",
+            "Diriger la guilde frontend",
+            "Diriger une initiative visant à rendre notre librairie de composants internes plus accessible"
           ],
           "timeframe": "2022-Présent",
           "title": "Développeur frontend"
@@ -125,7 +133,7 @@
     "title": "Jessy Lachapelle"
   },
   "home": {
-    "subtitle": "Je m'appelle Jessy et je vis présentement mon rêve de nomade digital",
+    "subtitle": "Je m'appelle Jessy et je vis présentement mon rêve de nomade numérique",
     "title": "Bienvenue sur mon site web"
   }
 }
