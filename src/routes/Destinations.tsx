@@ -9,7 +9,7 @@ const DestinationsPage = () => {
   const description = i18n.t("destinations.description", { returnObjects: true }) as string[];
 
   return (
-    <Layout backgroundClass="before:bg-beach">
+    <Layout backgroundClass="before:bg-castle">
       <div className="flex flex-col gap-y-6 items-center w-full lg:flex-1 lg:flex-row">
         <div className="flex flex-col lg:flex-[1.25]">
           <H1>{i18n.t("destinations.title")}</H1>
