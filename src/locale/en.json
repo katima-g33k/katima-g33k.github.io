@@ -1,9 +1,9 @@
 {
   "about": {
     "description": [
-      "I have a degree in computer programing from Cégep de Sherbrooke. I’m currently working for Akinox Solutions Inc., a company specialized in health care software.",
-      "I love programing, it’s one of my passions, and I have affinities with web programing because the technologies evolve very quickly, and I find that adds an extra challenge.",
-      "With time, I’ve specialized myself as a frontend web and mobile developer with React and React-Native, although I’ve also used VueJS on occasion.",
+      "I have a degree in computer programing from Cégep de Sherbrooke. I'm currently working for Akinox Solutions Inc., a company specialized in health care software.",
+      "I love programing, it's one of my passions, and I have affinities with web programing because the technologies evolve very quickly, and I find that adds an extra challenge.",
+      "With time, I've specialized myself as a frontend web and mobile developer with React and React-Native, although I've also used VueJS on occasion.",
       "Being a digital nomad had been a long standing dream of mine that I was finally able to realize.",
       "In November 2022, I left home for an 8-month trip to Asia. During those months I visited Vietnam, Cambodia, Thailand, Malaysia, Singapore, South Korea and Japan.",
       "After a few months back home, I traveled to Columbia for a month, then back to Malaysia for 2 months before embarking on a 2 month long trip across Europe from Istanbul to Lisbon by train.",
@@ -15,6 +15,13 @@
   "contact": {
     "description": "You can use these links if you want to contact me",
     "title": "Contact me"
+  },
+  "destinations": {
+    "description": [
+      "I love traveling. My first trip was to Spain with a high school group and since then I have visited so many more countries.",
+      "My most recent and most ambitious trips have been a 9 month backback trip across Asia where I visited Vietnam, Cambodia, Thailand, Malaysia, Singapore, South Korea and Japan. I also did a 2 month trip across Europe by train from Istanbul to Lisbon which took me to Turkey, Bulgaria, Romania, Hungary, Slovakia, Czech Republic, Netherlands, Belgium, Luxembourg, France, Spain and Portugal."
+    ],
+    "title": "Destinations"
   },
   "experience": {
     "description": "To start, I didn't always study computer programming. I started at Cégep de Granby to become a Specialized Educator. This allowed me to gain many communication and teamwork skills. I then decided to study computer programming because I realized that it was my true passion.",
@@ -127,6 +134,7 @@
     "nav": {
       "about": "About",
       "contact": "Contact me",
+      "destinations": "Destinations",
       "experience": "Experience",
       "home": "Home"
     },

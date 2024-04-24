@@ -5,6 +5,7 @@ import { routes } from "../constants/routes";
 import { LOCALE } from "../constants";
 
 const About = lazy(() => import("./About"));
+const DestinationsPage = lazy(() => import("./Destinations"));
 const Contact = lazy(() => import("./Contact"));
 const Experience = lazy(() => import("./Experience"));
 const Home = lazy(() => import("./Home"));
@@ -22,6 +23,7 @@ export default function Router() {
               <Route path={routes[locale].about} element={<About />} />
               <Route path={routes[locale].contact} element={<Contact />} />
               <Route path={routes[locale].experience} element={<Experience />} />
+              <Route path={routes[locale].destinations} element={<DestinationsPage />} />
             </Route>
           ))}
         </Route>

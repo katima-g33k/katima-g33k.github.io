@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import classnames from "classnames";;
+import classnames from "classnames";
 import Icon from "../Icon";
 import type { IconNameList } from "../../types";
 

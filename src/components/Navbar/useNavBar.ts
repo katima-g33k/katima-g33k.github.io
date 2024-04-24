@@ -11,6 +11,7 @@ export const useNabBar = () => {
     { href: `/${locale}`, icon: "Home", label: i18n.t("globals.nav.home") },
     { href: `/${locale}/about`, icon: "User", label: i18n.t("globals.nav.about") },
     { href: `/${locale}/experience`, icon: "Code", label: i18n.t("globals.nav.experience") },
+    { href: `/${locale}/destinations`, icon: "Globe", label: i18n.t("globals.nav.destinations") },
     { href: `/${locale}/contact`, icon: "MessageSquare", label: i18n.t("globals.nav.contact") },
   ];
 

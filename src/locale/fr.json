@@ -16,6 +16,13 @@
     "description": "Vous pouvez utiliser ces liens si vous souhaitez me contacter",
     "title": "Me contacter"
   },
+  "destinations": {
+    "description": [
+      "J'aime voyager. Mon premier voyage a eu lieu en Espagne avec un groupe du secondaire et depuis, j'ai visité bien d'autres pays.",
+      "Mes voyages les plus récents et les plus ambitieux ont été un voyage en \"backpack\" de 9 mois à travers l'Asie où j'ai visité le Vietnam, le Cambodge, la Thaïlande, la Malaisie, Singapour, la Corée du Sud et le Japon. J'ai également fait un voyage de 2 mois à travers l'Europe en train d'Istanbul à Lisbonne qui m'a emmené en Turquie, Bulgarie, Roumanie, Hongrie, Slovaquie, République Tchèque, Pays-Bas, Belgique, Luxembourg, France, Espagne et Portugal."
+    ],
+    "title": "Destinations"
+  },
   "experience": {
     "description": "Pour commencer, je n'ai pas toujours étudié en informatique. J'ai commencé au Cégep de Granby pour devenir éducateur spécialisé. Cela m'a permis d'acquérir de nombreuses compétences en communication et en travail d'équipe. Par la suite, j'ai décidé d'étudier en informatique car j'ai réalisé que c'était ma véritable passion.",
     "stack": {
@@ -127,6 +134,7 @@
     "nav": {
       "about": "À propos",
       "contact": "Contactez-moi",
+      "destinations": "Destinations",
       "experience": "Expérience",
       "home": "Accueil"
     },
