@@ -1,16 +1,19 @@
 import React from "react";
 import classnames from "classnames";
+import { Menu } from "react-feather";
 import { useTranslation } from "react-i18next";
 
 import { H2 } from "../Typography";
 import LocaleSwitcher from "../LocaleSwitcher";
 import Navbar from "../Navbar";
 
+import { useDrawer } from "../Drawer";
 import { useHeader } from "./useHeader";
 
 const Header = () => {
   const { i18n } = useTranslation();
   const { isTransparent } = useHeader();
+  const { toggleIsOpen: toggleDrawer } = useDrawer();
 
   return (
     <header
@@ -20,8 +23,16 @@ const Header = () => {
       )}
     >
       <H2 className="!mb-0">{i18n.t("globals.title")}</H2>
-      <Navbar className="basis-full lg:basis-auto order-3 lg:order-2" />
-      <LocaleSwitcher className="order-2 lg:order-3" />
+      <Navbar
+        activeItemClassName="font-semibold border-b-white"
+        className="hidden lg:block"
+        itemClassName="flex gap-1 text-lg border-b border-b-solid border-b-transparent hover:border-b-white"
+        listClassName="flex gap-5 justify-start items-center"
+      />
+      <LocaleSwitcher className="hidden lg:block" />
+      <button className="lg:hidden" onClick={toggleDrawer}>
+        <Menu />
+      </button>
     </header>
   );
 };

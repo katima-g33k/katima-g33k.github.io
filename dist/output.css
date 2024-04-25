@@ -576,14 +576,6 @@ html, body, #root{
   position: fixed;
 }
 
-.order-3{
-  order: 3;
-}
-
-.order-2{
-  order: 2;
-}
-
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -612,6 +604,10 @@ html, body, #root{
   margin-left: 1.5rem;
 }
 
+.block{
+  display: block;
+}
+
 .flex{
   display: flex;
 }
@@ -626,6 +622,10 @@ html, body, #root{
 
 .h-52{
   height: 13rem;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .h-fit{
@@ -662,12 +662,12 @@ html, body, #root{
   flex-shrink: 0;
 }
 
-.basis-full{
-  flex-basis: 100%;
-}
-
 .cursor-pointer{
   cursor: pointer;
+}
+
+.resize{
+  resize: both;
 }
 
 .list-disc{
@@ -698,16 +698,16 @@ html, body, #root{
   align-items: center;
 }
 
+.justify-start{
+  justify-content: flex-start;
+}
+
 .justify-center{
   justify-content: center;
 }
 
 .justify-between{
   justify-content: space-between;
-}
-
-.justify-around{
-  justify-content: space-around;
 }
 
 .gap-8{
@@ -730,12 +730,16 @@ html, body, #root{
   gap: 0.75rem;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
 .gap-5{
   gap: 1.25rem;
 }
 
-.gap-1{
-  gap: 0.25rem;
+.gap-y-6{
+  row-gap: 1.5rem;
 }
 
 .overflow-hidden{
@@ -773,6 +777,16 @@ html, body, #root{
 
 .border-b-transparent{
   border-bottom-color: transparent;
+}
+
+.bg-gray-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-gray-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .bg-black{
@@ -817,6 +831,10 @@ html, body, #root{
 
 .pb-2{
   padding-bottom: 0.5rem;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-lg{
@@ -898,6 +916,11 @@ header {
   background-image: url('/public/beach.jpg');
 }
 
+.before\:bg-castle::before{
+  content: var(--tw-content);
+  background-image: url('/public/castle.jpg');
+}
+
 .before\:bg-sunset::before{
   content: var(--tw-content);
   background-image: url('/public/sunset_boat.jpg');
@@ -952,14 +975,6 @@ header {
     margin-top: 104px;
   }
 
-  .md\:inline{
-    display: inline;
-  }
-
-  .md\:hidden{
-    display: none;
-  }
-
   .md\:h-64{
     height: 16rem;
   }
@@ -996,10 +1011,6 @@ header {
     align-items: flex-start;
   }
 
-  .md\:justify-start{
-    justify-content: flex-start;
-  }
-
   .md\:justify-end{
     justify-content: flex-end;
   }
@@ -1011,14 +1022,6 @@ header {
 }
 
 @media (min-width: 1024px){
-  .lg\:order-2{
-    order: 2;
-  }
-
-  .lg\:order-3{
-    order: 3;
-  }
-
   .lg\:mt-\[52px\]{
     margin-top: 52px;
   }
@@ -1027,11 +1030,31 @@ header {
     margin-top: 0px;
   }
 
-  .lg\:basis-auto{
-    flex-basis: auto;
+  .lg\:block{
+    display: block;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+
+  .lg\:flex-1{
+    flex: 1 1 0%;
+  }
+
+  .lg\:flex-\[1\.25\]{
+    flex: 1.25;
+  }
+
+  .lg\:flex-\[2\]{
+    flex: 2;
   }
 
   .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row{
+    flex-direction: row;
   }
 }
