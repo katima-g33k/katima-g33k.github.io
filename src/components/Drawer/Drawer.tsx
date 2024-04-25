@@ -11,12 +11,11 @@ import { useTranslation } from "react-i18next";
 import "react-modern-drawer/dist/index.css";
 
 const Drawer = () => {
-  const { isOpen, setIsOpen, toggleIsOpen } = useDrawer();
+  const { isOpen, setIsOpen } = useDrawer();
   const { i18n } = useTranslation();
+  const closeDrawer = () => setIsOpen(false);
 
   useEffect(() => {
-    const closeDrawer = () => setIsOpen(false);
-
     window.addEventListener("resize", closeDrawer);
 
     return () => {
@@ -28,21 +27,24 @@ const Drawer = () => {
     <ModernDrawer
       className="lg:hidden"
       direction="left"
-      onClose={toggleIsOpen}
+      onClose={closeDrawer}
       open={isOpen}
     >
       <div className="flex flex-col h-full bg-gray-900">
         <H2 className="p-4">{i18n.t("globals.title")}</H2>
         <hr />
         <Navbar
-          activeItemClassName="font-semibold bg-gray-600"
           className="flex-1"
-          itemClassName="block p-4"
+          itemProps={{
+            activeClassName: "font-semibold bg-gray-600",
+            className: "block p-4",
+            onClick: closeDrawer,
+          }}
           listClassName="flex flex-col"
           tag="div"
         />
         <hr />
-        <LocaleSwitcher className="p-4 text-left w-full" />
+        <LocaleSwitcher className="p-4 text-left w-full" onClick={closeDrawer} />
       </div>
     </ModernDrawer>
   );

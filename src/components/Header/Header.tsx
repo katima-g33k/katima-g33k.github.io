@@ -24,9 +24,11 @@ const Header = () => {
     >
       <H2 className="!mb-0">{i18n.t("globals.title")}</H2>
       <Navbar
-        activeItemClassName="font-semibold border-b-white"
         className="hidden lg:block"
-        itemClassName="flex gap-1 text-lg border-b border-b-solid border-b-transparent hover:border-b-white"
+        itemProps={{
+          activeClassName: "font-semibold border-b-white",
+          className: "flex gap-1 text-lg border-b border-b-solid border-b-transparent hover:border-b-white"
+        }}
         listClassName="flex gap-5 justify-start items-center"
       />
       <LocaleSwitcher className="hidden lg:block" />

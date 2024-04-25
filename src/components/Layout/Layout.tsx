@@ -1,16 +1,16 @@
-import React, { PropsWithChildren } from "react";
+import React from "react";
+import { Outlet } from "react-router-dom";
 import classnames from "classnames";
 
 import { Drawer, DrawerProvider } from "../Drawer";
-import ContentWrapper, { ContentWrapperProps } from "./ContentWrapper";
+import ContentWrapper from "./ContentWrapper";
 import Footer from "../Footer";
 import Header from "../Header";
+import { useLayout } from "./useLayout";
 
-interface LayoutProps extends ContentWrapperProps {
-  backgroundClass?: string;
-}
+const Layout = () => {
+  const { backgroundClass, isHome } = useLayout();
 
-const Layout = ({ backgroundClass, children, ...props }: PropsWithChildren<LayoutProps>) => {
   return (
     <DrawerProvider>
       <div className={classnames(
@@ -20,8 +20,8 @@ const Layout = ({ backgroundClass, children, ...props }: PropsWithChildren<Layou
         backgroundClass
       )}>
         <Header />
-        <ContentWrapper {...props}>
-          {children}
+        <ContentWrapper isHome={isHome}>
+          <Outlet />
         </ContentWrapper>
         <Footer />
       </div>

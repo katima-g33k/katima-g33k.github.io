@@ -1,18 +1,17 @@
 import React from "react";
 import classnames from "classnames";
 
-import NavBarItem from "./NavbarItem";
+import NavBarItem, { NavBarItemProps } from "./NavbarItem";
 import { useNabBar } from "./useNavBar";
 
 interface NavbarProps {
-  activeItemClassName?: string;
   className?: string;
-  itemClassName?: string;
+  itemProps?: Omit<NavBarItemProps, "href" | "isActive" | "label">;
   listClassName?: string;
   tag?: keyof JSX.IntrinsicElements
 }
 
-const Navbar = ({ activeItemClassName, className, itemClassName, listClassName, tag = "nav" }: NavbarProps) => {
+const Navbar = ({ className , itemProps, listClassName, tag = "nav" }: NavbarProps) => {
   const { locale, navItems, pathname } = useNabBar();
   const Tag = tag;
 
@@ -22,9 +21,8 @@ const Navbar = ({ activeItemClassName, className, itemClassName, listClassName, 
         {navItems.map(item =>
           <NavBarItem
             {...item}
+            {...itemProps}
             key={item.href}
-            activeClassName={activeItemClassName}
-            className={itemClassName}
             isActive={item.href === pathname || (pathname === "/" && item.href === `/${locale}`)}
           />
         )}
