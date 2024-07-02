@@ -9,7 +9,6 @@ import type { SocialMediaLink as SocialMediaLinkType } from "../types";
 const socialMediaLinks = [
   { href: "https://github.com/katima-g33k", icon: "GitHub" },
   { href: "https://www.linkedin.com/in/jessy-lachapelle-2933a7302", icon: "Linkedin" },
-  { href: "https://facebook.com/jessy.lachapelle", icon: "Facebook" },
   { href: "https://instagram.com/jessy.lachapelle", icon: "Instagram" },
 ] as SocialMediaLinkType[];
 
