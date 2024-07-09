@@ -47,13 +47,22 @@
         "AWS Serverless",
         "SignalR",
         "MeteorJS",
-        "PHP"
+        "PHP",
+        "Websocket"
       ],
       "title": "Stack techno"
     },
     "title": "Mon expérience",
     "work": {
       "list": [
+        {
+          "location": "Université de Sherbrooke",
+          "tasks": [
+            "Développement d'outils de gestion et de recherches linguistiques"
+          ],
+          "timeframe": "2024-Présent",
+          "title": "Développeur frontend senior"
+        },
         {
           "location": "Akinox Solutions Inc.",
           "tasks": [
@@ -62,8 +71,8 @@
             "Diriger la guilde frontend",
             "Diriger une initiative visant à rendre notre librairie de composants internes plus accessible"
           ],
-          "timeframe": "2022-Présent",
-          "title": "Développeur frontend"
+          "timeframe": "2022-2024",
+          "title": "Développeur frontend senior"
         },
         {
           "location": "Université de Sherbrooke",
@@ -73,7 +82,7 @@
             "Développement d'outils de gestion et de recherches linguistiques"
           ],
           "timeframe": "2017-2022",
-          "title": "Technicien informatique"
+          "title": "Développeur frontend"
         },
         {
           "location": "Novom Networks",
@@ -141,7 +150,7 @@
     "title": "Jessy Lachapelle"
   },
   "home": {
-    "subtitle": "Je m'appelle Jessy et je vis présentement mon rêve de nomade numérique",
+    "subtitle": "Je m'appelle Jessy et lors des 2 dernières années, j'ai vécu mon rêve de nomade numérique. Je suis maintenant de retour au Canada et rpêt à relever de nouveaux défis.",
     "title": "Bienvenue sur mon site web"
   }
 }

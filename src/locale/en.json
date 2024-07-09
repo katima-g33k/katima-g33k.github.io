@@ -47,13 +47,22 @@
         "AWS Serverless",
         "SignalR",
         "MeteorJS",
-        "PHP"
+        "PHP",
+        "Websocket"
       ],
       "title": "Tech Stack"
     },
     "title": "My experience",
     "work": {
       "list": [
+        {
+          "location": "Sherbrooke University",
+          "tasks": [
+            "Develop linguistic analysis tools"
+          ],
+          "timeframe": "2024-Present",
+          "title": "Senior frontend developer"
+        },
         {
           "location": "Akinox Solutions Inc.",
           "tasks": [
@@ -62,8 +71,8 @@
             "Lead the frontend guild",
             "Lead an initiative to make our in-house component library more accessible"
           ],
-          "timeframe": "2022-Present",
-          "title": "Frontend developer"
+          "timeframe": "2022-2024",
+          "title": "Senior frontend developer"
         },
         {
           "location": "Sherbrooke University",
@@ -73,7 +82,7 @@
             "Develop linguistic analysis tools"
           ],
           "timeframe": "2017-2022",
-          "title": "IT Technician"
+          "title": "Frontend developer"
         },
         {
           "location": "Novom Networks",
@@ -141,7 +150,7 @@
     "title": "Jessy Lachapelle"
   },
   "home": {
-    "subtitle": "I'm Jessy and I'm currently living my digital nomad dream",
+    "subtitle": "I'm Jessy and for the past 2 years I've been living my digital nomad dream. I'm now back in Canada, ready to take on new challenges.",
     "title": "Welcome to my website"
   }
 }
