@@ -1,15 +1,12 @@
 {
   "about": {
     "description": [
-      "J'ai un diplôme en techniques informatiques, profil programmation, du Cégep de Sherbrooke. Je travaille présentement pour Akinox Solutions Inc., une entreprise spécialisée dans les logiciels du domaine de la santé.",
+      "J'ai un diplôme en techniques informatiques, profil programmation, du Cégep de Sherbrooke. Je travaille présentement pour Coeurway, une entreprise spécialisée dans les logiciels d'intélligence artificielle du domaine de la santé.",
       "J'adore la programmation, c'est une de mes passions, et j'ai une affinité pour la programmation web puisque les technologies évoluent très rapidement et je trouve que ça ajoute un défi supplémentaire.",
       "Avec le temps, je me suis spécialisé en tant que développeur web « frontend » et développeur mobile avec les technologies React et React-Native et j'ai à l'occasion utilisé VueJS.",
-      "Être un nomade numérique était un de mes rêves de longue date que j'ai enfin pu réaliser.",
-      "En novembre 2022, j'ai quitté la maison pour un voyage de 8 mois en Asie. Au cours de ce voyage, j'ai visité le Vietnam, le Cambodge, la Thaïlande, la Malaisie, Singapour, la Corée du Sud et le Japon.",
-      "Après quelques mois de retour chez moi, j'ai voyagé en Colombie pendant un mois, puis je suis retourné en Malaisie pendant 2 mois avant d'embarquer pour un voyage de 2 mois à travers l'Europe d'Istanbul à Lisbonne en train.",
-      "Tous ces voyages ont été effectués en travaillant à temps plein à distance."
+      "En novembre 2022, j'ai quitté la maison pour un voyage de 8 mois en sac à dois au travers de l'Asie. Depuis, j'ai continué à voyager et travailler à distance en tant que nomade numérique."
     ],
-    "imageAlt": "Photo de moi sur le téléphérique de Hakone",
+    "imageAlt": "Photo de moi dans un parc de Kuala Lumpur",
     "title": "À propos de moi"
   },
   "contact": {
@@ -56,9 +53,11 @@
     "work": {
       "list": [
         {
-          "location": "Université de Sherbrooke",
+          "location": "Coeurway",
           "tasks": [
-            "Développement d'outils de gestion et de recherches linguistiques"
+            "Développer une plateforme d'assistant IA pour la génération de notes médicales",
+            "Optimiser et maintenir l'application frontend",
+            "S'assurer de la conformité de l'accessibilité"
           ],
           "timeframe": "2024-Présent",
           "title": "Développeur frontend senior"
@@ -150,7 +149,7 @@
     "title": "Jessy Lachapelle"
   },
   "home": {
-    "subtitle": "Je m'appelle Jessy et lors des 2 dernières années, j'ai vécu mon rêve de nomade numérique. Je suis maintenant de retour au Canada et rpêt à relever de nouveaux défis.",
+    "subtitle": "Je m'appelle Jessy et je suis un nomade numérique depuis 2022",
     "title": "Bienvenue sur mon site web"
   }
 }

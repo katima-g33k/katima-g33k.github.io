@@ -1,15 +1,12 @@
 {
   "about": {
     "description": [
-      "I have a degree in computer programing from Cégep de Sherbrooke. I'm currently working for Akinox Solutions Inc., a company specialized in health care software.",
+      "I have a degree in computer programing from Cégep de Sherbrooke. I'm currently working for Coeurway, a company specialized in AI health care software.",
       "I love programing, it's one of my passions, and I have affinities with web programing because the technologies evolve very quickly, and I find that adds an extra challenge.",
       "With time, I've specialized myself as a frontend web and mobile developer with React and React-Native, although I've also used VueJS on occasion.",
-      "Being a digital nomad had been a long standing dream of mine that I was finally able to realize.",
-      "In November 2022, I left home for an 8-month trip to Asia. During those months I visited Vietnam, Cambodia, Thailand, Malaysia, Singapore, South Korea and Japan.",
-      "After a few months back home, I traveled to Columbia for a month, then back to Malaysia for 2 months before embarking on a 2 month long trip across Europe from Istanbul to Lisbon by train.",
-      "All of this traveling has been done while working full time remotely."
+      "In November 2022, I left home for an 8-month backback trip through Asia. Since then I have continued to travel and work remotely as a digital nomad."
     ],
-    "imageAlt": "Photo of me on the Hakone ropeway",
+    "imageAlt": "Photo of me in a park in Kuala Lumpur",
     "title": "About me"
   },
   "contact": {
@@ -56,9 +53,11 @@
     "work": {
       "list": [
         {
-          "location": "Sherbrooke University",
+          "location": "Coeurway",
           "tasks": [
-            "Develop linguistic analysis tools"
+            "Develop an AI assistant platform for medical note generation",
+            "Optimize and maintain the frontend application",
+            "Ensure accessibility compliance"
           ],
           "timeframe": "2024-Present",
           "title": "Senior frontend developer"
@@ -150,7 +149,7 @@
     "title": "Jessy Lachapelle"
   },
   "home": {
-    "subtitle": "I'm Jessy and for the past 2 years I've been living my digital nomad dream. I'm now back in Canada, ready to take on new challenges.",
+    "subtitle": "I'm Jessy and I've been a digital nomad since 2022",
     "title": "Welcome to my website"
   }
 }

@@ -8,9 +8,12 @@ export interface IconProps extends AriaAttributes {
 }
 
 const Icon = ({ name, ...props }: IconProps) => {
+  // @ts-ignore
   const FeatherIcon = FeatherIcons[name];
 
-  return <FeatherIcon {...props} />;
+  return FeatherIcon
+    ? <FeatherIcon {...props} />
+    : <img {...props} src={`/icons/${name}.svg`} alt={name} />;
 };
 
 export default Icon;

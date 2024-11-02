@@ -1,6 +1,6 @@
 import * as FeatherIcons from "react-feather";
 
-export type IconNameList = keyof typeof FeatherIcons;
+export type IconNameList = keyof typeof FeatherIcons | "Whatsapp";
 
 export type Locale = "en" | "fr";
 
