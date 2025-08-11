@@ -45,7 +45,8 @@
         "SignalR",
         "MeteorJS",
         "PHP",
-        "Websocket"
+        "Websocket",
+        "Copilot"
       ],
       "title": "Tech Stack"
     },
@@ -53,13 +54,23 @@
     "work": {
       "list": [
         {
+          "location": "Medfar Solutions",
+          "tasks": [
+            "Develop a mobile AI assistant application for medical note generation",
+            "Optimize and maintain the mobile application",
+            "Ensure accessibility compliance"
+          ],
+          "timeframe": "2025-Present",
+          "title": "Senior mobile developer"
+        },
+        {
           "location": "Coeurway",
           "tasks": [
             "Develop an AI assistant platform for medical note generation",
             "Optimize and maintain the frontend application",
             "Ensure accessibility compliance"
           ],
-          "timeframe": "2024-Present",
+          "timeframe": "2024-2025",
           "title": "Senior frontend developer"
         },
         {

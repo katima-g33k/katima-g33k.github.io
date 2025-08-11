@@ -6,9 +6,12 @@ import "jsvectormap/dist/maps/world";
 import type { CountryCode } from "./types";
 
 const COUNTRIES_VISITED: CountryCode[] = [
+  "AR",
   "BE",
   "BG",
+  "BR",
   "CA",
+  "CL",
   "CO",
   "CR",
   "CZ",
@@ -33,6 +36,7 @@ const COUNTRIES_VISITED: CountryCode[] = [
   "TH",
   "TR",
   "US",
+  "UY",
   "VA",
   "VN",
 ];
