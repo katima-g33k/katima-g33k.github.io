@@ -4,7 +4,8 @@
       "J'ai un diplôme en techniques informatiques, profil programmation, du Cégep de Sherbrooke. Je travaille présentement pour Coeurway, une entreprise spécialisée dans les logiciels d'intélligence artificielle du domaine de la santé.",
       "J'adore la programmation, c'est une de mes passions, et j'ai une affinité pour la programmation web puisque les technologies évoluent très rapidement et je trouve que ça ajoute un défi supplémentaire.",
       "Avec le temps, je me suis spécialisé en tant que développeur web « frontend » et développeur mobile avec les technologies React et React-Native et j'ai à l'occasion utilisé VueJS.",
-      "En novembre 2022, j'ai quitté la maison pour un voyage de 8 mois en sac à dois au travers de l'Asie. Depuis, j'ai continué à voyager et travailler à distance en tant que nomade numérique."
+      "En novembre 2022, j'ai quitté la maison pour un voyage de 8 mois en sac à dois au travers de l'Asie. Depuis, j'ai continué à voyager et travailler à distance en tant que nomade numérique.",
+      "Finalement, le 8 novembre 2024, j'ai vendu ma maison et tous mes biens pour devenir un voyageur à temps plein."
     ],
     "imageAlt": "Photo de moi dans un parc de Kuala Lumpur",
     "title": "À propos de moi"
@@ -16,7 +17,9 @@
   "destinations": {
     "description": [
       "J'aime voyager. Mon premier voyage a eu lieu en Espagne avec un groupe du secondaire et depuis, j'ai visité bien d'autres pays.",
-      "Mes voyages les plus récents et les plus ambitieux ont été un voyage en \"backpack\" de 9 mois à travers l'Asie où j'ai visité le Vietnam, le Cambodge, la Thaïlande, la Malaisie, Singapour, la Corée du Sud et le Japon. J'ai également fait un voyage de 2 mois à travers l'Europe en train d'Istanbul à Lisbonne qui m'a emmené en Turquie, Bulgarie, Roumanie, Hongrie, Slovaquie, République Tchèque, Pays-Bas, Belgique, Luxembourg, France, Espagne et Portugal."
+      "Mes voyages les plus ambitieux ont été un voyage en \"backpack\" de 9 mois à travers l'Asie où j'ai visité le Vietnam, le Cambodge, la Thaïlande, la Malaisie, Singapour, la Corée du Sud et le Japon. J'ai également fait un voyage de 2 mois à travers l'Europe en train d'Istanbul à Lisbonne qui m'a emmené en Turquie, Bulgarie, Roumanie, Hongrie, Slovaquie, République Tchèque, Pays-Bas, Belgique, Luxembourg, France, Espagne et Portugal.",
+      "Au début de cette année, j'ai passé 6 mois en Amérique du Sud et je suis tombé amoureux de Buenos Aires.",
+      "Je voyage actuellement à travers l'Europe. J'ai passé des vacances au Royaume-Uni avec mon copain. Ensuite, je suis allé à Varsovie et j'ai pris le train de nuit pour Munich pour l'Oktoberfest. Puis j'ai passé un mois à Belgrade. Je participe maintenant au Websummit à Lisbonne et je prendrai ensuite un vol pour Tallinn pour le reste de l'année."
     ],
     "title": "Destinations"
   },
