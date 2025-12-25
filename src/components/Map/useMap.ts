@@ -19,6 +19,7 @@ const COUNTRIES_VISITED: CountryCode[] = [
   "EE",
   "EG",
   "ES",
+  "FI",
   "FR",
   "GB",
   "HU",
