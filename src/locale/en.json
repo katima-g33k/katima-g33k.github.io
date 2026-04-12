@@ -18,8 +18,8 @@
     "description": [
       "I love traveling. My first trip was to Spain with a high school group and since then I have visited so many more countries.",
       "My most ambitious trips have been a 9 month backback trip across Asia where I visited Vietnam, Cambodia, Thailand, Malaysia, Singapore, South Korea and Japan. I also did a 2 month trip across Europe by train from Istanbul to Lisbon which took me to Turkey, Bulgaria, Romania, Hungary, Slovakia, Czech Republic, Netherlands, Belgium, Luxembourg, France, Spain and Portugal.",
-      "Earlier this year I spent 6 months in South America and fell in love with Buenos Aires.",
-      "I just finished a 4 month trip across Europe. I spent a vacation in the UK with my partner. Then went to Warsaw and took the night train to Munich for Oktoberfest. Then spent a month in Belgrade, attended Websummit in Lisbon and finally spent the rest of the year in Tallinn and took a weekend trip to Helsinki before flying back to Canada for the Holidays."
+      "In 2025 I spent 6 months in South America and fell in love with Buenos Aires. Then, later that year I spent 4 months travelling across Europe. I spent a vacation in the UK with my partner. Then went to Warsaw and took the night train to Munich for Oktoberfest. Then spent a month in Belgrade, attended Websummit in Lisbon and finally spent the rest of the year in Tallinn and took a weekend trip to Helsinki before flying back to Canada for the Holidays.",
+      "In early 2026 I left for Asia. I stopped 1 week in Tokyo to visit my best friend and then went to Thailand and Laos. Now I'm in Taiwan with plans to take a 1 week vacation to travel across China."
     ],
     "title": "Destinations"
   },
@@ -57,13 +57,22 @@
     "work": {
       "list": [
         {
+          "location": "Self-employed",
+          "tasks": [
+            "Build and maintain React and React-Native projects for clients",
+            "Follow up with clients and give regular and timely reports"
+          ],
+          "timeframe": "2026-Present",
+          "title": "Senior React and React-Native developer"
+        },
+        {
           "location": "Medfar Solutions",
           "tasks": [
             "Develop a mobile AI assistant application for medical note generation",
             "Optimize and maintain the mobile application",
             "Ensure accessibility compliance"
           ],
-          "timeframe": "2025-Present",
+          "timeframe": "2025-2026",
           "title": "Senior mobile developer"
         },
         {

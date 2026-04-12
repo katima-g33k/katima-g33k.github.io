@@ -18,8 +18,8 @@
     "description": [
       "J'aime voyager. Mon premier voyage a eu lieu en Espagne avec un groupe du secondaire et depuis, j'ai visité bien d'autres pays.",
       "Mes voyages les plus ambitieux ont été un voyage en \"backpack\" de 9 mois à travers l'Asie où j'ai visité le Vietnam, le Cambodge, la Thaïlande, la Malaisie, Singapour, la Corée du Sud et le Japon. J'ai également fait un voyage de 2 mois à travers l'Europe en train d'Istanbul à Lisbonne qui m'a emmené en Turquie, Bulgarie, Roumanie, Hongrie, Slovaquie, République Tchèque, Pays-Bas, Belgique, Luxembourg, France, Espagne et Portugal.",
-      "Au début de cette année, j'ai passé 6 mois en Amérique du Sud et je suis tombé amoureux de Buenos Aires.",
-      "Je viens de terminer un voyage de 4 mois à travers l'Europe. J'ai passé des vacances au Royaume-Uni avec mon copain. Ensuite, je suis allé à Varsovie et j'ai pris le train de nuit pour Munich pour l'Oktoberfest. Puis j'ai passé un mois à Belgrade. J'ai assisté au Websummit à Lisbonne et j'ai finalement passé le reste de l'année à Tallinn et fait un voyage d'un week-end à Helsinki avant de retourner au Canada pour le temps des Fêtes."
+      "En 2025, j'ai passé 6 mois en Amérique du Sud et je suis tombé amoureux de Buenos Aires. Ensuite, plus tard dans l'année j'ai passé 4 mois à voyager à travers l'Europe. J'ai passé des vacances au Royaume-Uni avec mon copain. Ensuite, je suis allé à Varsovie et j'ai pris le train de nuit pour Munich pour l'Oktoberfest. Puis j'ai passé un mois à Belgrade. J'ai assisté au Websummit à Lisbonne et j'ai finalement passé le reste de l'année à Tallinn et fait un voyage d'un week-end à Helsinki avant de retourner au Canada pour le temps des Fêtes.",
+      "Au début de 2026, j'ai quitté pour l'Europe. Je suis arrêté une semaine à Tokyo pour visiter ma meilleure amie. Ensuite c'était direction Thaïlande et puis le Laos. Je suis maintenant en Taiwan avec des plans de prendre une semaine de vacance pour visiter la Chine."
     ],
     "title": "Destinations"
   },
@@ -57,13 +57,22 @@
     "work": {
       "list": [
         {
+          "location": "Travailleur indépendant",
+          "tasks": [
+            "Construire et maintenir des projets React et React-Native pour les clients",
+            "Assurer le suivi avec les clients et fournir des rapports réguliers et opportuns"
+          ],
+          "timeframe": "2026-Présent",
+          "title": "Développeur React et React-Native senior"
+        },
+        {
           "location": "Medfar Solutions",
           "tasks": [
             "Développer une application mobile d'assistant IA pour la génération de notes médicales",
             "Optimiser et maintenir l'application mobile",
             "S'assurer de la conformité de l'accessibilité"
           ],
-          "timeframe": "2025-Présent",
+          "timeframe": "2025-2026",
           "title": "Développeur mobile senior"
         },
         {
